@@ -1,0 +1,39 @@
+{
+  "name": "craft-scad",
+  "version": "1.0.1",
+  "description": "OpenJSCAD for CRAFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "craft"
+  ],
+  "author": {
+    "name": "Tom Yeh",
+    "email": "tom.yeh@colorado.edu",
+    "url": "http://tomyeh.info/"
+  },
+  "license": "MIT",
+  "_id": "craft-scad@1.0.1",
+  "_shasum": "e950681fe90c0257d213643949f627478b4bd6cf",
+  "_from": "craft-scad@^1.0.1",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "doubleshow",
+    "email": "tom.yeh@colorado.edu"
+  },
+  "maintainers": [
+    {
+      "name": "doubleshow",
+      "email": "tom.yeh@colorado.edu"
+    }
+  ],
+  "dist": {
+    "shasum": "e950681fe90c0257d213643949f627478b4bd6cf",
+    "tarball": "http://registry.npmjs.org/craft-scad/-/craft-scad-1.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/craft-scad/-/craft-scad-1.0.1.tgz",
+  "readme": "ERROR: No README data found!"
+}
