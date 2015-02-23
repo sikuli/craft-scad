@@ -2728,27 +2728,42 @@ if(typeof module !== 'undefined') {    // we are used as module in nodejs requir
       // -- list all functions we export
       parseSTL: function(stl,fn) { return parseSTL(stl,fn); },
       parseAMF: function(amf,fn) { return parseAMF(amf,fn); },
-      cube: cube,
-      cylinder: cylinder,
-		torus: torus,
-      sphere: sphere,
+      //boolean operations
       group: group,
       union: union,
+      intersection: intersection,
+      difference: difference,
+
+      //CAGs
+      CAG: CAG
+      square: square,
+      circle: circle,
+      polygon: polygon,
+
+      //CSGs
+      CSG: CSG,
+      cube: cube,
+      cylinder: cylinder,
+      torus: torus,
+      sphere: sphere,
+      polyhedron: polyhedron,
+
+      //transformations
       center: center,
       translate: translate,
       scale: scale,
       rotate: rotate,
-      torus: torus,     	
+
+   	//modifiers
       rotate_extrude: rotate_extrude,
       linear_extrude: linear_extrude,
-      square: square,
-      circle: circle,
-      difference: difference,
-      color: color,
       rectangular_extrude: rectangular_extrude,
-      vector_text: vector_text,
-      CSG: CSG,
-      CAG: CAG
+      hull: hull,
+      chain_hull: chain_hull,
+      expand: expand,
+      contract: contract,
+      
+      color: color
    };
    //me = 'cli';
 }
