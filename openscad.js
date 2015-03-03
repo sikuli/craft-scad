@@ -2735,7 +2735,7 @@ if(typeof module !== 'undefined') {    // we are used as module in nodejs requir
       difference: difference,
 
       //CAGs
-      CAG: CAG
+      CAG: CAG,
       square: square,
       circle: circle,
       polygon: polygon,
